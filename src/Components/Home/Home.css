@@ -1,4 +1,11 @@
 .skills {
     background-color: #222222;
     box-shadow: 5px 5px 5px black;
+    transform: scale(1);
+    transition: .8s;
+}
+
+.skills:hover {
+    transform: scale(1.12);
+    transition: .5s;
 }

@@ -1,6 +1,5 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Resume from './Components/Resume/Resume';
@@ -9,6 +8,7 @@ import Blogs from './Components/Blogs/Blogs';
 import Header from './Components/Header/Header';
 import MyCard from './Components/MyCard/MyCard';
 import Contact from './Components/Contact/Contact';
+import Home from './Components/Home/Home';
 
 
 function App() {
