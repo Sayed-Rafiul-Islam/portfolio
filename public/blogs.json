@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "heading": "How does prototypical inheritance work?",
+        "details": "Prototypical inheritance means the ability to access object properties from another ob Then we tell Java script to inherit properties from the prototype. It allows us to reuse properties and methods. dThe Object.prototype is on top of the prototype inheritance chain. Date objects, Array objects, and Player objects all inherit from Object.prototype."
+    },
+    {
+        "id": "2",
+        "heading": "What are the different ways to manage a state in a React application?",
+        "details": "There are many ways to manage a state in react. The setState() allows us to update a variable's values and any function that may require that value in that local component is able to access it. Another state if Global State. These states can be accessed from any component in the app and so we don't need to duplicate any code over and over again."
+    },
+    {
+        "id": "3",
+        "heading": "Difference between JavaScript and Nodejs?",
+        "details": "JavaScript is a simple programming language which runs in any browser using JavaScript Engine. And Node JS is an interpreter JavaScript programming language. JavaScript is mainly used for client side stuff in an web site or page and Nodejs is basically used for server side stuff, it is used to establish the relation between an external database and the client side"
+    },
+    {
+        "id": "4",
+        "heading": "When should you use Nodejs and when should you use Mongodb?",
+        "details": "Node.js is a server-side JavaScript run-time environment. It is used for traditional web sites and back-end API services. Using it we are able to stablish the bridge between an external database and the client side. On the other hand, Mongodb is a NoSQL database. We use it to store a large amount data and it enables us to store the data online and so the clients can access data from any device"
+    },
+    {
+        "id": "5",
+        "heading": "Differences between SQL and NoSQL databases?",
+        "details": "SQL databases store the data in a table, they use structured query language, these databases are relational and vertically scalable, these databases are better for multi row transactions. On the other hand, NoSQL databases store the data in kew-value pairs, graphs etc forms, they use dynamic schemas for unorganized data, they are horizontally scalable and these are better for storing unorganized data"
+    },
+    {
+        "id": "6",
+        "heading": "What is the purpose of JWT and how does it work?",
+        "details": "JWT is used for securely transmit information between client side and the server, so that if someone who do not have access to the information, tries to access the data, he will not get access. When an user logs in, a token is given which is stored in the local storage or cookies. And then when the user sends a request to the backend, JWT verifies it. If the token is valid then the request is granted and if not, then the request is denied"
+    }
+]

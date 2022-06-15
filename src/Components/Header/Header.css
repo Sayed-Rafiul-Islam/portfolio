@@ -1,0 +1,43 @@
+.link {
+    color: rgb(140, 132, 132);
+    display: flex;
+}
+
+.tab {
+    position: relative;
+    right: 0;
+    padding: 13px 50px 13px 21px;
+    display: block;
+}
+
+.link:hover .tab {
+    right: 500px;
+    color: white;
+    transition: .4s;
+}
+
+.tab1 {
+    position: relative;
+    display: block;
+    right: -500px;
+    padding: 13px 60px 13px 21px;
+    background-image: linear-gradient(210deg, #0b717f, #0ba276);
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.link:hover .tab1 {
+    right: 140px;
+    color: white;
+    transition: .4s;
+}
+
+.display {
+    display: block;
+}
+
+@media (max-width: 576px) {
+    .display {
+        display: none;
+    }
+}

@@ -1,0 +1,59 @@
+[
+    {
+        "id": "1",
+        "title": "Computer Mania",
+        "image1": "https://i.ibb.co/jLqwwhT/1.png",
+        "image2": "https://i.ibb.co/3sQ3x3V/2.png",
+        "image3": "https://i.ibb.co/n1Rmqhk/3.png",
+        "image4": "https://i.ibb.co/X7YTzcK/4.png",
+        "description": "It s a computer parts website created using Tailwind CSS and Daizy UI integrated with MongoDB where users can order computer parts and pay, update profile, add reviews, and admin can add parts, make admins, etc",
+        "liveLink": "https://computer-menia.web.app/",
+        "clientSide": "https://github.com/Sayed-Rafiul-Islam/Computer-Menia-Client-Side",
+        "serverSide": "https://github.com/Sayed-Rafiul-Islam/Computer-Menia-Server-Side",
+        "points": [
+            "Users can sign up and log in using email-password or google. Anyone without access cannot go to some pages without logging in, which is developed by React Router and firebase authentication",
+            "The Dashboard is different for Users and Admins",
+            "Users can place orders, see/her order list and cancel or pay for it, update profiles, and give a review",
+            "Admin can see all orders of the users. They can add a new product, make a new admin, cancel an order, change order status, and so on"
+        ],
+        "code": "javaScript"
+    },
+    {
+        "id": "2",
+        "title": "Fruit Warehouse",
+        "image1": "https://i.ibb.co/yXgR0WL/1.png",
+        "image2": " https://i.ibb.co/bzNJd9t/2.png",
+        "image3": " https://i.ibb.co/nMJJPWt/3.png",
+        "image4": "https://i.ibb.co/kBLTXVb/4.png",
+        "description": "It's an inventory management website created using Bootstrap and integrated with MongoDB where users can deliver and restock fruits and hence, update the quantity. A user can also add items or delete items, etc",
+        "liveLink": "https://fruit-warhouse.web.app/",
+        "clientSide": "https://github.com/Sayed-Rafiul-Islam/Best-Fruit-Warehouse-client-side",
+        "serverSide": "https://github.com/Sayed-Rafiul-Islam/Best-Fruit-Warehouse-server-side",
+        "points": [
+            "Users can sign up and log in using email-password or google.",
+            "Anyone without access cannot go to some pages without logging in, which is developed by React Router and firebase authentication.",
+            "An user can also see only the items he or she had added before",
+            "Users can see all the items, add an item, delete an item update the item quantity by delivering or restocking it",
+            "Pagination is available in inventory items and my items for a more optimized user experience."
+        ],
+        "code": "javaScript"
+    },
+    {
+        "id": "3",
+        "title": "Cloth's Heaven",
+        "image1": "https://i.ibb.co/4wL8sZZ/1.png",
+        "image2": "https://i.ibb.co/gy2gdVv/2.png",
+        "image3": "https://i.ibb.co/NF2gTkV/3.png",
+        "image4": "https://i.ibb.co/XFxTyMs/4.png",
+        "description": "It s a small project created using bootstrap and typescript where users can see some reviews on the home page and see all the reviews if they want to",
+        "liveLink": "https://cloths-heaven.netlify.app/",
+        "clientSide": "https://github.com/Sayed-Rafiul-Islam/Cloths-Heaven",
+        "serverSide": "",
+        "points": [
+            "The Header is created using react router and the links are designed without using any framework",
+            "There are two charts, Bar chart and Composed chart in the dashboard route created using rechart",
+            "Implemented 404 route and the whole project is created using typescript"
+        ],
+        "code": "typeScript"
+    }
+]
