@@ -45,7 +45,7 @@ const Project = ({ project }) => {
                 </>
 
             </div>
-            <div className='h-36 overflow-y-scroll'>
+            <div className='h-36 mx-3 overflow-y-scroll'>
                 <h1 className='text-3xl my-3 text-teal-500'><b>{title}</b></h1>
                 <a className='text-cyan-500 hover:text-white mr-5' target=' _blank' href={liveLink}><i>Live Site</i></a>
                 <a className='text-cyan-500 hover:text-white mr-5' target=' _blank' href={clientSide}><i>Client Side Code</i></a>

@@ -1,0 +1,48 @@
+.body404 {
+    width: 100%;
+    height: 707px;
+    background-image: url('https://i.ibb.co/5Wg1JKk/404.jpg');
+}
+
+.four {
+    font-size: 250px;
+    left: 530px;
+}
+
+.btn-home {
+    color: teal;
+    padding: 5px 30px;
+    border: 2px solid teal;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.btn-home:hover {
+    transition: .5s;
+    transform: scale(1.1);
+    background-color: teal;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+
+@media (max-width: 576px) {
+    .body404 {
+        width: 100%;
+        height: 900px;
+        background-image: url('https://i.ibb.co/5Wg1JKk/404.jpg');
+    }
+
+    .four {
+        top: 150px;
+        font-size: 200px;
+        left: 30px;
+    }
+
+    .btn-home {
+        color: teal;
+        padding: 5px 30px;
+        border: 2px solid teal;
+        border-radius: 10px;
+        transition: .5s;
+    }
+}
