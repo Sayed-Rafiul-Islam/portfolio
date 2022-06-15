@@ -55,11 +55,28 @@
     }
 
     .btn-menu {
+        width: 14%;
         position: fixed;
-        left: 380px;
+        left: 335px;
+        top: 30px;
+
+    }
+
+    .btn-menu:hover {
+        width: 14%;
+        position: fixed;
+        left: 335px;
+        top: 30px;
+        transform: rotate(180deg);
+        transition: .5s;
     }
 
     .link-sm:hover {
         border-bottom: 2px solid white;
+    }
+
+    .close-btn:hover {
+        transform: rotate(180deg);
+        transition: .5s;
     }
 }

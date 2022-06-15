@@ -21,10 +21,10 @@ const MyCard = () => {
                 <footer className='mt-36'><small>© 2022 All rights reserved</small></footer>
             </div>
 
-            <button onClick={() => setVisible(true)} className='text-teal-500 btn-menu'>Menu</button>
+            <button onClick={() => setVisible(true)} className='text-teal-500 btn-menu'><img src="https://i.ibb.co/vqpmCvz/menu-sm.png" alt="" /></button>
 
             <div className={visible ? 'card-sm2 ml-2 rounded-lg text-center text-white shadow-xl' : 'card-sm1 ml-2 rounded-lg text-center text-white shadow-xl'}>
-                <button onClick={() => setVisible(false)} className='text-white ml-80 pl-10 mt-2'>X</button>
+                <button onClick={() => setVisible(false)} className='text-white ml-80 mt-3 close-btn'><img src="https://i.ibb.co/YNDPHqP/close.png" alt="" /></button>
                 <img className='w-1/2 mx-auto pt-10' src={myImage} alt="" />
                 <h1 className='text-4xl mt-5'><b>Sayed Rafiul Islam</b></h1>
                 <h1 className='text-xl mt-3'>Junior Web Developer</h1>

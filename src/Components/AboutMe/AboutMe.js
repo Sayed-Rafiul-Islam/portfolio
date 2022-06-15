@@ -11,7 +11,7 @@ const AboutMe = () => {
         getBlogs();
     }, [])
     return (
-        <div className='lg:w-1/2 text-center mr-24'>
+        <div className='lg:w-1/2 mx-5 text-center lg:mr-24'>
             {
                 data.length &&
                 <div data-aos="flip-up">

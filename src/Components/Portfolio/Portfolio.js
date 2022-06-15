@@ -36,9 +36,9 @@ const Portfolio = () => {
     }
     return (
         <div className='w-full lg:w-3/5 lg:mr-8 mx-5 lg:my-0 my-5' data-aos="fade-up">
-            <h1 className='text-5xl text-white ml-80 my-10'><b>My <span className='text-teal-500'>Projects</span></b></h1>
-            <div className='flex flex-col'>
-                <div className='lg:ml-96 lg:pl-72' data-aos="fade-right">
+            <h1 className='text-5xl text-white ml-16 mt-12 lg:ml-80 lg:my-10'><b>My <span className='text-teal-500'>Projects</span></b></h1>
+            <div className='flex flex-col mt-10 lg:mt-0'>
+                <div className='lg:ml-96 lg:pl-72 ml-20' data-aos="fade-right">
                     <button className='code codex mr-3 text-teal-500' onClick={handleAll}>All</button>
                     <button className='code mr-3 text-teal-500' onClick={handleJavaScript}>JavaScript</button>
                     <button className='code mr-3 text-teal-500' onClick={handleTypeScript}>TypeScript</button>

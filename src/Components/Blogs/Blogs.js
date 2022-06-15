@@ -12,8 +12,8 @@ const Blogs = () => {
         getBlogs();
     }, [])
     return (
-        <div className='w-3/4 mt-12'>
-            <h1 className='text-5xl ml-28 mb-8 text-center text-teal-500'><b>B<span className='text-white'>logs</span></b></h1>
+        <div className='w-3/4 mt-12 lg:mx-0 mx-auto'>
+            <h1 className='text-5xl lg:ml-28 mb-8 text-center text-teal-500'><b>B<span className='text-white'>logs</span></b></h1>
             {
                 blogs.map(blog => <Blog
                     key={blog.id}

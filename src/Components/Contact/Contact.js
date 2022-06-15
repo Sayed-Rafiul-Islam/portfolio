@@ -31,13 +31,13 @@ const Contact = () => {
         reset();
     }
     return (
-        <div className='w-3/5'>
+        <div className='lg:w-3/5 w-3/4 lg:mx-0 mx-auto'>
             {
                 data.length &&
-                <div data-aos="flip-down" data-aos-anchor-placement="top-center">
+                <div className='' data-aos="flip-down" data-aos-anchor-placement="top-center" >
                     <b className='text-5xl text-center block text-white mt-12 mb-8'>Contact <span className='text-teal-500'>Me</span></b>
-                    <form className='ml-48' onSubmit={handleSubmit(onSend)}>
-                        <div className='flex w-1/2'>
+                    <form className='lg:ml-48 ml-8' onSubmit={handleSubmit(onSend)}>
+                        <div className='lg:flex w-1/2'>
                             <div className='mr-3'>
                                 <input
                                     className='contact'
@@ -61,9 +61,9 @@ const Contact = () => {
                                 ></input>
                             </div>
                         </div>
-                        <div className='w-1/2'>
+                        <div className='lg:w-3/4'>
                             <input
-                                className='contact w-full'
+                                className='contact lg:w-11/12'
                                 type="text"
                                 name='subject'
                                 placeholder='Email Subject here'
@@ -72,9 +72,9 @@ const Contact = () => {
                                 })}
                             />
                         </div>
-                        <div className='w-1/2'>
+                        <div className='lg:w-3/4'>
                             <textarea
-                                className='contact w-full'
+                                className='contact w-60 lg:w-11/12'
                                 type='text'
                                 name="message"
                                 placeholder='Message'
@@ -85,7 +85,7 @@ const Contact = () => {
                                 })}
                             ></textarea>
                         </div>
-                        <button className='btn w-1/4'>Send</button>
+                        <button className='btn lg:w-1/4 w-60'>Send</button>
                     </form>
                     <ToastContainer
                         theme="dark"
