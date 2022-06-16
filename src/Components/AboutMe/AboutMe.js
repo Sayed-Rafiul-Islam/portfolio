@@ -22,7 +22,7 @@ const AboutMe = () => {
                         Why do I do it : <br />
                         I like creating things and solving puzzles. When I work on making a web application, first I'm needed to build the client-side brick by brick, and then I have to make interfaces that require a complex problem-solving mind. That's why I do what I do. It's like a painting to me or an unsolved puzzle
                         <br /> <br />
-                        How do provide value : <br />
+                        How do I provide value : <br />
                         Making a website isn't just about making it look good. It's more about how well it serves its true purpose. So I always intend to make web applications that don't just look good but serve it's the true purpose and give the user a great experience</i>
                 </div>
             }
