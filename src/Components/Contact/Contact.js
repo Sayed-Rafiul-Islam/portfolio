@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Contact.css'
 import { useForm } from "react-hook-form";
 import emailjs from 'emailjs-com';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
+
 
 const Contact = () => {
     const [data, setData] = useState([]);
@@ -87,10 +87,6 @@ const Contact = () => {
                         </div>
                         <button className='btn lg:w-1/4 w-60'>Send</button>
                     </form>
-                    <ToastContainer
-                        theme="dark"
-                        position='top-center'
-                    />
                 </div>
             }
 

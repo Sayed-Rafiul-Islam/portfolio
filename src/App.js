@@ -9,6 +9,8 @@ import Header from './Components/Header/Header';
 import MyCard from './Components/MyCard/MyCard';
 import Contact from './Components/Contact/Contact';
 import Home from './Components/Home/Home';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
@@ -31,8 +33,11 @@ function App() {
             <Route path="*" element={<NotFound></NotFound>}></Route>
           </Routes>
         </div>
-
       </div>
+      <ToastContainer
+        theme="dark"
+        position='top-center'
+      />
     </div>
   );
 }
