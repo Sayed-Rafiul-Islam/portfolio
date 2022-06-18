@@ -9,7 +9,7 @@ function CustomLink({ children, to, ...props }) {
     return (
         <div>
             <Link
-                style={{ backgroundImage: match ? "linear-gradient(210deg, #0b717f, #0ba276)" : "", color: match ? 'white' : '', borderBottom: match ? "4px solid white" : '' }}
+                style={{ backgroundImage: match ? "linear-gradient(210deg, #0b717f, #0ba276)" : "", color: match ? 'white' : '', borderRight: match ? "4px solid white" : '' }}
                 to={to}
                 {...props}
             >

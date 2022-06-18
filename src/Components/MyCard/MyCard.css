@@ -35,6 +35,10 @@
     transition: .5s;
 }
 
+.btn-menu {
+    display: none;
+}
+
 @media (max-width: 576px) {
     .card-sm1 {
         transition: .5s;
@@ -55,6 +59,7 @@
     }
 
     .btn-menu {
+        display: block;
         width: 14%;
         position: fixed;
         left: 335px;

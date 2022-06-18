@@ -24,6 +24,7 @@
     background-image: linear-gradient(210deg, #0b717f, #0ba276);
     color: white;
     border-bottom: 5px solid white;
+    transition: .4s;
 }
 
 .link:hover .tab1 {
