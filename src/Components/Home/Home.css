@@ -9,3 +9,73 @@
     transform: scale(1.12);
     transition: .5s;
 }
+
+.wrapper {
+    margin-left: 240px;
+    overflow: hidden;
+}
+
+.wrapper .static-txt {
+    color: gray;
+    font-size: 22px;
+}
+
+.wrapper .dynamic-txt {
+    line-height: 35px;
+    height: 35px;
+    overflow: hidden;
+}
+
+.dynamic-txt li {
+    position: relative;
+    top: 0px;
+    animation: sliding 6s steps(2) infinite;
+}
+
+@keyframes sliding {
+    100% {
+        top: -72px;
+    }
+}
+
+.dynamic-txt li span {
+    position: relative;
+    color: gray;
+    font-size: 22px;
+}
+
+.dynamic-txt li span::after {
+    content: '';
+    border-left: 2px solid gray;
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    animation: typing 3s steps(14) infinite;
+    left: 0;
+    background-color: #222222;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -18px 0 18px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .wrapper {
+        width: 300px;
+        margin-left: 70px;
+    }
+
+    .wrapper .static-txt {
+        font-size: 22px;
+        margin-right: 6px;
+    }
+
+    .wrapper li span {
+        font-size: 22px;
+    }
+}

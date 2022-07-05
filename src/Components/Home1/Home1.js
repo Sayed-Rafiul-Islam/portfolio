@@ -1,14 +1,19 @@
 import React, { useEffect } from 'react';
+import { useState } from 'react';
 import './Home1.css'
 const Home1 = () => {
+
+    const [data, setData] = useState([]);
     useEffect(() => {
         const getBlogs = () => {
             fetch('blogs.json')
                 .then(res => res.json())
-                .then(data => (data))
+                .then(data => setData(data))
         }
         getBlogs();
     }, [])
+
+
     return (
         <div className='lg:mr-24'>
             <div className='lg:mt-36 text-center'>

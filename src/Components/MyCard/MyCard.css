@@ -1,7 +1,7 @@
 .card {
     height: 725px;
     width: 400px;
-    background-image: linear-gradient(210deg, #0b717f, #0ba276);
+    background-image: linear-gradient(210deg, #0b718f, #0ba276);
 }
 
 .resume {
@@ -44,7 +44,7 @@
         transition: .5s;
         height: 900px;
         width: 400px;
-        background-image: linear-gradient(210deg, #0b717f, #0ba276);
+        background-image: linear-gradient(210deg, #0b718f, #0ba276);
         position: fixed;
         left: 900px;
     }
@@ -53,7 +53,7 @@
         transition: .5s;
         height: 900px;
         width: 400px;
-        background-image: linear-gradient(210deg, #0b717f, #0ba276);
+        background-image: linear-gradient(210deg, #0b718f, #0ba276);
         position: fixed;
         left: 0;
     }
